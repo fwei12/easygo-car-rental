@@ -1,0 +1,32 @@
+Name of the project
+EasyGO.
+
+Name of the team and names of the team members. 
+Team 777. Yiwei Cheng, Wei Feng, Yufan Zou.
+
+Brief description of the project
+EasyGo is an online car rental website for redefining your car rental experience.
+
+Description of the two user data models
+Client: keep detailed info of clients.
+Admin: keep detailed info of admins.
+
+Description of the three domain object data models
+Booking: keep detailed info on bookings.
+Vehicle: keep detailed info about vehicles.
+Bill: keep details info of booking bills. 
+
+Description of the user to domain object relationship
+Client-Booking: clients can make bookings.
+Admin-Vehicle: admins can manage vehicles' data.
+
+Description of the domain object to domain object relationship
+Booking-Vehicle: book vehicles, booking contains which vehicles to rent.
+Booking-Bill: booking contains a bill of the booking.
+
+Description of the portable enumeration(s)
+The brand enumeration contains several predefined vehicle brands.
+
+Description of the user interface requirements
+Allow clients to browse vehicles' info and book vehicles.
+Allow admins to manage data of clients and vehicles.
